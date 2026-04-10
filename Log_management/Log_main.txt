@@ -1,0 +1,8 @@
+2025 Aug 27 11:40:17 > (M0001) Retrieving options 
+2025 Aug 27 11:40:17 > (M0007) Experiment name: None, Job folder: /work/mh0066/m301130/projects/scheme_comparison/MP_Analysis_Slave/Jobs/pod0001/ta_wa/job1, Job number: None
+2025 Aug 27 11:40:17 > (M0002) Options retrieved 
+2025 Aug 27 11:40:17 > (M0003) Starting JobManager initialization 
+2025 Aug 27 11:40:17 > (M0004) JobManager initialized successfully 
+2025 Aug 27 11:40:17 > (JM0011) Running on a SLURM job, can start a job.
+2025 Aug 27 11:40:17 > (M0011) Job ready to compute.
+2025 Aug 27 11:40:17 > Starting compute function (JM0015)
