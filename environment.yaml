@@ -1,0 +1,27 @@
+name: icon_analysis
+channels:
+  - conda-forge
+dependencies:
+  - python==3.13
+  - hyperopt
+  - h5netcdf
+  - intake-xarray<2
+  - intake<2
+  - ipykernel
+  - islp
+  - matplotlib
+  - metpy
+  - ncview
+  - numba
+  - numpy
+  - optuna
+  - pandas
+  - pdpbox
+  - scikit-learn
+  - scipy
+  - seaborn
+  - xarray
+  - xgboost
+  - zarr
+  - graphviz       
+  - python-graphviz  
