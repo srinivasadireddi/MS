@@ -1,0 +1,51 @@
+{
+    "Header": {
+        "version": "1.0",
+        "user": "m301130",
+        "creation": "",
+        "job_number": 0,
+        "status": "given"
+    },
+    "description": {
+        "model": "icon-mpim",
+        "project": "scheme_comparison",
+        "exp_name": "pod0003",
+        "grid": "R02B09",
+        "zoom": 9,
+        "region": "deg_-90_to_90",
+        "start": "2020-01-12T00:00:00",
+        "end": "2020-01-12T00:00:00",
+        "time_interval": "PT3H"
+    },
+    "parameters": {
+        "instructions": {
+            "observables": ["qc/qci"],
+            "weight_type": "mass_ci",
+            "note1_2d": "The possible variables are nummerous, but the main ones are : ",
+            "note2_2d": "clon, clat, cell_area, pr, tas, clivi, cllvi, qgvi, qrvi, qsvi",
+            "variables_2d": ["clon", "clat", "cell_area", "pr", "tas", "clivi", "cllvi", "qgvi", "qrvi", "qsvi"],
+            "note1_3d": "The possible 3d variables are: ",
+            "note2_3d": "clw, cli, qr, qg, qs, hus, ta, wa, ua, va, pfull, rho, zg, zghalf, dzghalf",
+            "variables_3d": ["clw", "cli", "qr", "qg", "qs", "hus", "ta", "wa", "rho", "dzghalf", "zg", "ua", "va", "pfull"]
+        },
+        "note": "chunksizeN is the number of points in AxisN to be processed in one job",
+        "Axis1": {
+            "name": "ta",
+            "from": 209.5,
+            "to": 300.5,
+            "pm": 0.5,
+            "chunksize": -1
+        },
+        "Axis2": {
+            "name": "wa",
+            "from": -9,
+            "to": 20,
+            "pm": 0.25,
+            "chunksize": 8
+        },
+        "Axis3": {
+            "name": "relhum",
+            "extra": "only_above_liquid_saturation"
+        }
+    }
+}
