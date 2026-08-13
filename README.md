@@ -24,11 +24,11 @@ HOW TO USE
 
 
 3. Data Access
-    Data is located in /work/mh0066/m301130/projects/scheme_comparison/icon-mpim/build/experiments/pod0001
+    Data is located in /work/mh0066/m301130/projects/scheme_comparison/icon-mpim/build/experiments/pod0003
     The dates of the data are:
 
-    - in 2D, goes from Jan 1 1979 to Feb 1 1979, 
-    - In 3D, Jan 11 to Jan 15 1979. 
+    - in 2D, goes from Jan 1 2020 to Jan 30 2020, 
+    - In 3D, Jan 1 to Jan 30 2020. #approx
     
     You select the dates you want to work with in options.json -> description, start and end
 
